@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="item_back">#d8eff9</color>
+    <color name="statusbar">#6cccf2</color>
+    <color name="actionbar">#2eb7ed</color>
+
+    <color name="one">#00bf9a</color>
+    <color name="two">#008975</color>
+    <color name="three">#C8E6C9</color>
+    <color name="four">#E8F5E9</color>
+    <color name="five">#DCEDC8</color>
+
+</resources>

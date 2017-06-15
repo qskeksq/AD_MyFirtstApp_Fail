@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_words_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/show_words_copy"
+        android:title="COPY"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_words_delete"
+        android:title="DELETE"
+        app:showAsAction="never" />
+
+</menu>

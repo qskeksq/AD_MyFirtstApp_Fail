@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/words_save"
+        android:icon="@drawable/ic_action_save3"
+        android:title="save"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/words_temp_save"
+        android:icon="@drawable/ic_action_edit"
+        android:title="edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/words_copy"
+        android:title="COPY"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/words_delete"
+        android:title="DELETE"
+        app:showAsAction="never" />
+
+</menu>

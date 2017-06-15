@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="A">
+
+        <CheckBoxPreference
+            android:key="check"
+            android:title="A_check"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="edit"
+            android:title="A_Edit" />
+
+        <SwitchPreference
+            android:key="switch"
+            android:title="A_Switch" />
+
+        <PreferenceScreen
+            android:key="inner"
+            android:title="A_Inner" >
+
+            <CheckBoxPreference
+                android:key="check2"
+                android:title="A_check"
+                android:defaultValue="false" />
+
+            <EditTextPreference
+                android:key="edit2"
+                android:title="A_Edit" />
+
+            <SwitchPreference
+                android:key="switch2"
+                android:title="A_Switch" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
